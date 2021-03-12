@@ -4,8 +4,11 @@ Collect ADC data through uart ble app
 modify the main.c in sdk_v16\examples\ble_peripheral\ble_app_uart add these nrf_driver files: 
 
 D:\sdk_v16\integration\nrfx\legacy\nrf_drv_ppi.c
+
 D:\sdk_v16\integration\nrfx\legacy\nrf_drv_saadc.h
+
 D:\sdk_v16\integration\nrfx\legacy\nrf_drv_timer.h
+
 D:\sdk_v16\modules\nrfx\drivers\src\nrfx_saadc.c
 
 Make sure in sdk_config.h #define SAADC_ENABLED 1
